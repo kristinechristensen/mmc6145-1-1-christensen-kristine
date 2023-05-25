@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+}
+
+
+:root {
+  --primary-color:black;
+  --light-primary-color:#c52424;
+  --secondary-color:#D92938;
+  --accent-color:#FBC50B;
+  --dark-accent-color:#010626;
+  --text-color:#333333;
+  --light-text-color:#ffffff;
+
+}
+
+body {
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin: 0;
+  min-height: 100vh;
+  font-size: 1.2rem;
+  color: var(--text-color);
+  display: flex;
+  flex-direction: column;
+}
+
+
+header {
+  background-color: var(--primary-color);
+  padding:10px 0px;
+  height:40px;
+  border-bottom:var(--secondary-color) solid 4px;
+}
+
+header .nav {
+  display:flex;
+  max-width:1200px;
+  margin:0 auto;
+  box-sizing:border-box;
+}
+
+header a {
+  font-size:1.25rem;
+  color: var(--light-text-color);
+  margin:35px 0px 0px 35px;
+  text-decoration:none;
+  position:relative;
+  transition: color .3s linear;
+}
+
+header a:last-of-type {
+  margin-right:40px;
+}
+
+main {
+  padding: 50px 75px;
+  max-width: 1200px;
+  margin: 0 auto 20px auto;
+  box-sizing: border-box;
+  box-shadow: 4px 4px 10px var(--gray);
+  background-color: var(--white);
+}
+
+
+.portfolio {
+  box-sizing: border-box;
+  box-shadow: 4px 4px 10px var(--gray);
+  padding: 20px;
+  margin: 5px;
+  justify-content: space-between;
+  text-align: center;
+  min-width: 200px;
+  flex-grow: 1;
+  align-content: space-between;
+  border-radius:10px;
+  cursor: pointer;
+
+}
+
+.portfolio img {
+  width:50%;
+}
+
+footer {
+  margin-top: auto;
+  background-color: var(--primary-color);
+  border-top:var(--secondary-color) solid 4px;
+  text-align: center;
+  padding: 5px 0;
+  color: var(--light-text-color);
+}

@@ -1,0 +1,9 @@
+.heading {
+  font-size: 3rem;
+  color:#c52424;
+}
+
+.container {
+  display: flex;
+  flex-flow: row wrap;
+}
