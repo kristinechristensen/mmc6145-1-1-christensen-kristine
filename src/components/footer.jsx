@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <>
     <footer>
-     <p>&#169; Kristine Christensen</p>
+     <p><a href="mailto:christensen@morainevalley.edu">&#169; Kristine Christensen</a></p>
     </footer>
     </>
   )

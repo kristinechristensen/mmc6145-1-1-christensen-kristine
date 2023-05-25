@@ -22,8 +22,10 @@ body {
   color: var(--text-color);
   display: flex;
   flex-direction: column;
+  background-color:black;
 }
 
+#root {background-color:white;}
 
 header {
   background-color: var(--primary-color);
@@ -39,7 +41,7 @@ header .nav {
   box-sizing:border-box;
 }
 
-header a {
+header a, footer a {
   font-size:1.25rem;
   color: var(--light-text-color);
   margin:35px 0px 0px 35px;
@@ -48,8 +50,18 @@ header a {
   transition: color .3s linear;
 }
 
-header a:last-of-type {
-  margin-right:40px;
+header a:hover, footer a:hover {
+  color:var(--light-primary-color);
+}
+
+main a{
+  color: var(--light-primary-color);
+  text-decoration:none;
+  transition: color .3s linear;
+}
+
+main a:hover {
+  color:var(--text-color)
 }
 
 main {
@@ -87,3 +99,4 @@ footer {
   padding: 5px 0;
   color: var(--light-text-color);
 }
+

@@ -5,7 +5,7 @@ export default function Contact() {
     <>
     <main>
 
-      <img src={autoAward} style={{float:'right', clear:'both', margin:'0px 0px 50px 0px'}} height="300"alt="Kristine Christensen" />
+      <img src={autoAward} style={{float:'right'}} height="300"alt="Kristine Christensen" />
 
       <h1 className={styles.heading}>Contact Me!</h1>
       <p> If you like any of the work and would like to commission a piece, please contact me!</p>
